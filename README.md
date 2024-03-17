@@ -39,6 +39,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [](https://www.your-site.com)
-- Frontend Mentor - [@Unknownbosss](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@udeigweemmanuel](https://www.twitter.com/yourusername)
+- Website - [Udeigwe Emmanuel](https://www.your-site.com)
+- Frontend Mentor - [@Unknownbosss](https://www.frontendmentor.io/profile/Unknownbosss)
+- Twitter - [@UdeigweEmmanuel](https://www.twitter.com/UdeigweEmmanuel)
