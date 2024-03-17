@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark_Grey: hsl(0, 0%, 12%);
+  --Off_Black: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: inter;
+  src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+body {
+  color: var(--White);
+  font-family: inter, Tahoma, sans-serif;
+  background: var(--Off_Black);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 23rem;
+  background: var(--Dark_Grey);
+  padding: 1.5rem;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.avatar img {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.country {
+  color: var(--yellow);
+  font-weight: 700;
+}
+
+.job {
+  margin: 2rem 0 1.3rem;
+}
+
+.social-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.link-container {
+  background: var(--Grey);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  list-style-type: none;
+  cursor: pointer;
+  transition: background 0.35s;
+}
+
+a {
+  color: var(--White);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: background 0.35s;
+}
+
+.link-container:hover {
+  background: var(--yellow);
+}
+
+.link-container:hover a {
+  color: var(--Off_Black);
+}
